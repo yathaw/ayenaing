@@ -1,0 +1,136 @@
+HTML Tag
+=========
+
+Text
+-----
+
+Heading Tag
+H1 Heading 	=>	<h1> </h1>
+H2 Heading  =>	<h2> </h2>
+H3 Heading  =>	<h3> </h3>
+H4 Heading  =>	<h4> </h4>
+H5 Heading  =>	<h5> </h5>
+H6 Heading  =>	<h6> </h6>
+
+Section of document			=> <div> </div>
+
+Paragraph Tag 				=> <p> </p>
+Break Tag 					=> </br>
+Hyperlink Tag 				=> <a href=""> </a>
+Text Boldfaced  Tag 		=> <b> </b>
+Text Underlined Tag 		=> <u> </u>
+Text Italic Tag 			=> <i> </i>
+Horizontal Rule Tag 		=> <hr>
+
+----------------------------------------------------------------------------------
+
+List
+-----
+Order List 		-> 	Show Number
+Unordered List 	->	Show Bullet / Square
+
+Order list Tag 				=>	<ol type="I" start="" reversed> 
+									<li> </li>
+									<li> </li>
+									<li> </li>
+									....
+								</ol>
+
+Order List type 	->	1 / a / A / i / I
+
+Unordered List Tag 			=>	<ul type="">
+									<li> </li>
+									<li> </li>
+									<li> </li>
+									....
+								<ul>
+
+Unordered List type ->	circle / disc / square
+
+----------------------------------------------------------------------------------
+
+Link
+-----
+
+href  				=> <a href=""> </a>
+[value - link]
+
+target 				=> <a href="" target=""> </a>
+[value - _blank, _self, _parent, _top]
+
+title 				=> <a href="" title="This is google"> </a>
+[value - custom text]
+
+download 			=>	<a href="" download> </a>
+
+call phone 			=>	<a href="tel:+987654321"> +987654321 </a>
+
+send email			=>	<a href="mailto:testing@gmail.com"> Send Mail </a>
+
+----------------------------------------------------------------------------------
+
+Image
+-----
+
+<img src="">
+
+----------------------------------------------------------------------------------
+
+Table
+-----
+<table>
+	<tr>
+		<th> </th>
+	</th>
+	<tr>
+		<td> </td>
+	</tr>
+
+</table>
+
+No. | Name.        | Email
+1.  | Student 1.   | student1@gmail.com
+2.  | Student 2.   | student2@gmail.com
+3.  | Student 3.   | student3@gmail.com
+4.  | Student 4.   | student4@gmail.com 
+5.  | Student 5.   | student5@gmail.com
+
+No. | Name.        | Email
+Male
+1.  | Student 1.   | student1@gmail.com
+2.  | Student 2.   | student2@gmail.com
+3.  | Student 3.   | student3@gmail.com
+Female
+4.  | Student 4.   | student4@gmail.com 
+5.  | Student 5.   | student5@gmail.com
+
+Academic Year   |.  No. | Name.        | Email
+First Year      |.  1.  | Student 1.   | student1@gmail.com
+                |.  2.  | Student 2.   | student2@gmail.com
+Second Year     |.  3.  | Student 3.   | student3@gmail.com
+                |.  4.  | Student 4.   | student4@gmail.com 
+Final Year      |.  5.  | Student 5.   | student5@gmail.com
+
+
+----------------------------------------------------------------------------------
+
+Form
+-----
+
+<form>
+	.......
+</form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
