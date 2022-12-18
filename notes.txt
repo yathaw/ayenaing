@@ -121,7 +121,33 @@ Form
 	.......
 </form>
 
+<label> </lable>
+<input type="text">
+<input type="number">
+<input type="email">
+<input type="password">
+<input type="radio">
+<input type="checkbox">
+<input type="color">
+<input type="date">
+<input type="file">
 
+button
+-------
+<input type="submit">
+<input type="reset">
+
+
+<textarea> </textarea>
+
+<select>
+	<option> </option>
+	<option> </option>
+	<option> </option>
+	...
+</select>
+
+fieldset
 
 
 
