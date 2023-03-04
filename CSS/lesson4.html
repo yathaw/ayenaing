@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> Lesson4: Selector</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<h1> CSS Lesson </h1>
+	<div>
+		<h3 id="subtitle"> Selector </h3>
+		<p class="p1 colorblack">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+		</p>
+		<p style="border-left:3px solid gray; padding-left: 7px;">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. 
+		</p>
+		<p>
+			<i> Duis </i> aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. <b> <i> Excepteur </i> </b> sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+		<p class="p1"> 
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+		</p>
+	</div>	
+	<div>
+		<h3 id="subtitle"> Pseudo Selector </h3>
+		<div>
+			<a href="lesson1.html" title="Lesson1"> Lesson 1 </a>
+			<a href="lesson2.html" title="Lesson2"> Lesson 2 </a>
+			<a href="lesson3.html" title="Lesson3"> Lesson 3 </a>
+			<a href="lesson4.html" title="Lesson4"> Lesson 4 </a>
+		</div>
+
+		<h5> Child position </h5>
+
+		<ul class="child_position">
+			<li> HTML </li>
+			<li> CSS </li>
+			<li> Javascript </li>
+			<li> Jquery </li>
+			<li> Bootstrap </li>
+			<li> PHP </li>
+			<li> Java </li>
+			<li> React Native </li>
+			<li> React </li>
+			<li> Swift </li>
+			<li> Vuejs </li>
+
+		</ul>
+
+		<div>
+			<form>
+				<p> <b> Student Registration From </b> </p>
+				<p></p>
+				<label> Staff Name: </label>
+				<input type="text" value="John" readonly>
+				<br><br>
+
+				<label> Student ID: </label>
+				<input type="text" name="" disabled>
+				<br><br>
+
+				<label> First Name: </label>
+				<input type="text" name="">
+				<br><br>
+
+				<label> Last Name: </label>
+				<input type="text">
+				<br><br>
+
+				<label> Phone Number: </label>
+				<input type="number" name="">
+				<br><br>
+
+				<label> Email: </label>
+				<input type="email" name="">
+
+				<label> Password: </label>
+				<input type="password" name="">
+				<br><br>
+
+				<label> Address: </label>
+				<textarea></textarea>
+				<br><br>
+
+				<label> Gender: </label>
+				
+				<input type="radio" name="gender" id="male_radio">
+				<label for="male_radio">Male</label>
+
+				<input type="radio" name="gender" id="female_radio">
+				<label for="female_radio">Female</label>
+				<br><br>
+
+				<label> Programming Language </label>
+
+				<input type="checkbox" name="pl" id="pl1_checkbox">
+				<label for="pl1_checkbox">HTML</label>
+
+				<input type="checkbox" name="pl" id="pl2_checkbox">
+				<label for="pl2_checkbox">CSS</label>
+
+				<input type="checkbox" name="pl" id="pl3_checkbox">
+				<label for="pl3_checkbox">Javascript</label>
+
+				<input type="checkbox" name="pl" id="pl4_checkbox">
+				<label for="pl4_checkbox">JQuery</label>
+
+				<input type="checkbox" name="pl" id="pl5_checkbox">
+				<label for="pl5_checkbox">MySQL</label>
+
+				<input type="checkbox" name="pl" id="pl6_checkbox">
+				<label for="pl6_checkbox">PHP</label>
+				<br><br>
+
+				<label> Color: </label>
+				<input type="color" name="">
+				<br><br>
+
+				<label> Date: </label>
+				<input type="date" name="">
+				<br><br>
+
+				<label> Attachment: </label>
+				<input type="file" name="">
+				<br><br>
+
+				<label> Select Course: </label>
+				<select>
+					<option value="course1"> Course1: Application Design </option>
+					<option value="course2"> Course2: Building Web Application in PHP & Laravel </option>
+					<option value="course3"> Course3: PHP Project Practice </option>
+					<option value="course4"> Course4: Laravel Project Practice </option>
+				</select>
+				<br><br>
+
+				<input type="submit" value="Send">
+				<input type="reset" value="reset">
+
+			</form>
+
+		</div>
+	</div>
+</body>
+</html>

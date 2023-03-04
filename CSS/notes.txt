@@ -1,0 +1,210 @@
+CSS - Cascading Style Sheet
+
+----------------------------------------------------------------------------
+How it work
+------------
+step 1. select HTML tag/element (e.g <h1></h1>)
+step 2. choosing css property to alter (e.g color)
+step 3. applying value (e.g red)
+
+----------------------------------------------------------------------------
+Syntax
+------
+selector{
+	property:value
+}
+
+h1{
+	color: red
+}
+----------------------------------------------------------------------------
+3 ways to insert CSS
+---------------------
+
+1) Inline Style Sheet
+	- Inside an HTML Tag/element
+2) Internal Style Sheet
+	- Insert the head section of a HTML page
+3) External Style Sheet
+	- In an external CSS file
+
+----------------------------------------------------------------------------
+Colors
+------
+1) Hex Code - #RRGGBB
+	#000000 | #FFFFFF, .....
+2) Short Hex Code - #RGB
+	#000 | #FFF, ...
+3) RGB % / HSL - rgb(rrr%, ggg%, bbb%)
+	11,0%,0% | 11,0%,100% | .....
+4) RGH Absolute - rgb(rrr, ggg, bbb)
+	0,0,0 | 255,255,255 | ....
+5) keyword
+	black | White| red | blue | pink | orange,....
+
+----------------------------------------------------------------------------
+
+Measurement Units
+-----------------
+1) Absoulte Length Unit
+	same size regardless of the parent element or window size
+	px | pt | pc | cm | mm | in
+
+2) Relative Length Unit
+	depending on the unit. This can be used as the default for responsive sites.
+	% | em | ex | ch | rem | lh | vw | vh
+
+----------------------------------------------------------------------------
+Box Model
+---------
+- every HTML element in a box
+- boxes have padding, borders and margin
+
+----------------------------------------------------------------------------
+Border
+------
+	------------------------------------
+		border: width style color;
+	------------------------------------
+		top ~ right ~ bottom ~ left
+	------------------------------------
+	eg:
+		border: 2px solid green;
+
+		border-width: 2px;
+		border-style: solid;
+		border-color: green;
+	--------------------------------------
+		border-color: green red green red;
+		border-color: green red;
+
+		border-top-color: green;
+		border-bottom-color: green;
+		border-left-color: red;
+		border-right-color: red;
+	-----------------------------------
+
+
+width : unit value | thin | thick | medium
+style : solid | dashed | dotted | double | 
+		groove | ridge | inset | outset | none/hidden
+color : color value
+----------------------------------------------------------------------------
+Padding
+-------
+	Padding portion of an element exists inside the element. 
+	A padding creates space between the target element and surrounding elements. 
+	* Negative values are not allowed
+
+	-----------------------------------------------------------------------
+		padding: 10px; 					->  All Four padding has ONE value
+	-----------------------------------------------------------------------
+		padding: 10px 5px; 				->  Each padding has ONE value
+				 TB    LR
+	-----------------------------------------------------------------------
+		padding: 10px 5px 15px;			->  Padding has THREE value
+				  T    LR   B
+	-----------------------------------------------------------------------
+		padding: 10px 5px 15px 20px;	->  Padding has FOUR value
+				 T 	  R    B   L
+	-----------------------------------------------------------------------
+		padding-top: 10px;
+		padding-bottom: 20px;
+		padding-left: 25px;
+		padding-right: 30px;
+----------------------------------------------------------------------------
+
+Margin
+-------
+	The margin is the space around the content. It can be defined.
+	* Negative values are allowed
+
+	-----------------------------------------------------------------------
+		margin: 10px; 					->  All Four margin has ONE value
+	-----------------------------------------------------------------------
+		margin: 10px 5px; 				->  Each margin has ONE value
+				 TB    LR
+	-----------------------------------------------------------------------
+		margin: 10px 5px 15px;			->  Margin has THREE value
+				  T    LR   B
+	-----------------------------------------------------------------------
+		margin: 10px 5px 15px 20px;		->  Margin has FOUR value
+				 T 	  R    B   L
+	-----------------------------------------------------------------------
+		margin-top: 10px;
+		margin-bottom: 20px;
+		margin-left: 25px;
+		margin-right: 30px;
+----------------------------------------------------------------------------
+Selector
+--------
+1) Universal Selector (*)
+2) Tag Selector / Element Selector
+3) Attribute Selector
+4) ID Selector (#)
+5) Class Selector (.)
+6) Descendant Selector
+7) Child Selector
+
+Pseudo Selector
+---------------
+a tag
+
+1) Link
+2) Hover
+3) Active
+4) Visited
+
+Form Element
+5) 	Focus
+6) 	Checked
+7) 	Disabled
+8) 	Enabled
+9) 	Readonly
+10)	Readwrite
+11)	Empty 
+12) First-child
+13) Last-child
+14) nth-child
+
+----------------------------------------------------------------------------
+Layout
+------
+1) Inline
+	<b> | <i> | <small> | <em> | <strong> | <a> | <br> | <img> | <object> | <q> | <span> | <sub> | <button> | <input> | <label> | < select> | <textarea>
+	
+2) Block
+	<address> |<article> | <blockquote> | <div> | <form> | <h1> - <h6> | <li> | <ol> | <p> | <table> | <ul>
+
+----------------------------------------------------------------------------
+Float
+-----
+float:left | right;
+clear:both;
+----------------------------------------------------------------------------
+Flex (one dimension)
+----
+----------------------------------------------------------------------------
+Grid (Two dimensions)
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,198 @@
+li{
+	color: orange;
+}
+
+/*Universal Selector*/
+*{
+	color: darkgoldenrod;
+}
+/*Tag Selector / Element Selector*/
+h1{
+	color: darkcyan;
+}
+/*Attribute Selector*/
+a[title="Lesson1"]{
+	color: darkkhaki;
+}
+a[href="lesson3.html"]{
+	color: lightcoral;
+}
+/*ID Selector*/
+h3#subtitle{
+	color: lightseagreen;
+}
+/*Class Selector*/
+p.p1{
+	color: lightskyblue;
+}
+p.colorblack{
+	color: black;
+}
+/*Descendant Selector*/
+p i{
+	color: mediumpurple;
+}
+/*Child Selector*/
+p>i{
+	color: orangered;
+}
+/*Pseudo Selector*/
+/*Link*/
+a:link{
+	color: blueviolet;
+}
+/*Hover*/
+a:hover{
+	color: palevioletred;
+}
+
+/*Active*/
+a:active{
+	color: deeppink;
+}
+/*Visited*/
+a:visited{
+	color: slategray;
+}
+form label{
+	color: darkslategrey;
+}
+/*Focus*/
+form input[type="text"]:focus{
+	background: navajowhite;
+}
+
+/*Checked*/
+form input[type="checkbox"]:checked+label{
+	color: red;
+}
+
+/*Disabled*/
+form input[type="text"]:disabled{
+	background-color: lightslategray;
+}
+
+/*Enabled*/
+form input:enabled{
+	background-color: floralwhite;
+}
+
+/*Readonly*/
+form input:read-only{
+	background-color:lightcyan;
+}
+
+/*Readwrite*/
+form input:read-write{
+	background-color: limegreen;
+}
+
+/*Empty*/
+p:empty{
+	background-color: darkkhaki;
+	height: 10px;
+}
+
+/*First-Child*/
+ul.child_position li:first-child{
+	background-color: greenyellow;
+}
+
+/*Last-Child*/
+ul.child_position li:last-child{
+	background-color: lightpink;
+}
+
+/*nth-Child*/
+ul.child_position li:nth-child(3){
+	background-color: darkred;
+}
+
+ul.child_position li:nth-child(6){
+	background-color: blueviolet;
+}
+
+/*Layout*/
+
+a[title="Lesson1"]{
+	background-color: lightpink;
+	color:white;
+}
+a[title="Lesson2"]{
+	background-color: lightslategray;
+	color:white;
+}
+a[title="Lesson3"]{
+	background-color: lightskyblue;
+	color:white;
+}
+a[title="Lesson4"]{
+	background-color: lightgreen;
+	color:white;
+}
+
+p{
+	background-color: lightcoral;
+	color: navajowhite;
+}
+
+h3{
+	background-color: lightseagreen;
+	color: ghostwhite;
+}
+
+/*Float Left*/
+.float_left{
+	float: left;
+}
+
+.clear{
+	clear:both;
+}
+
+/*Float Right*/
+.float_right{
+	float: right;
+}
+
+/*Flex*/
+.flex{
+	display: flex;
+}
+.flex div{
+	color: white;
+	font-size: 30px;
+	margin: 10px;
+	text-align: center;
+}
+.flex_one div{
+	flex: 1;
+	/*	flex: flex-grow flex-shrink flex-basis; */
+	/*flex:1 = flex: 1 1 0; */
+}
+.flex_two div:nth-child(2){
+/*	flex-basis => length of a flexible item. */
+	flex-basis: 100px;
+}
+/*how much the item will grow relative to the rest of the flexible items inside the same container.*/
+.flex_three div:nth-child(2) {
+	flex-grow: 3;
+}
+.flex_four{
+	flex-direction: column;
+	flex-direction: row|row-reverse|column|column-reverse
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
